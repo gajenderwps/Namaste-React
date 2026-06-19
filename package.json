@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gajenderwps/Namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/gajenderwps/Namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gajenderwps/Namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "gajender singh",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
