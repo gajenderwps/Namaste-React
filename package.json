@@ -14,6 +14,7 @@
   "author": "gajender singh",
   "type": "commonjs",
   "scripts": {
+    "start" : "parcel index.html",
     "test": "jest"
   },
   "dependencies": {

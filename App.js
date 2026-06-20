@@ -6,7 +6,6 @@ const heading = React.createElement(
         {id : "heading", className : "heading"},
         'Hello world from React'
     );
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 const parent1 = React.createElement("div", {id : "parent"}, 
@@ -31,5 +30,26 @@ const parent1 = React.createElement("div", {id : "parent"},
 )  
 
 
+const jsxHeading = <h1>this is jsx heading</h1>  //we can use single line without bracket
 
-root.render(parent);
+const jsxHeadingMulti = (
+    <div>
+        <h1 className="heading" >this is jsx multi line code heading</h1>
+    </div>
+ );
+
+ const Title = () => <h2>This is Title</h2>;
+
+const HeadingComponent = () => 
+(
+<div className="container">
+    <h1>This is a component in React</h1>
+    <Title/>
+</div>
+);
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<HeadingComponent/>);
